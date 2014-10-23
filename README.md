@@ -61,7 +61,7 @@ This recipe should run on any client machine mounting exports.
 
 ### eas-nfs::nfs-server
 
-Include `eas-nfs::nfs-server` in your mgmt node's `run_list`:
+Include `eas-nfs::nfs-server` in your NFS Server Node `run_list`:
 
 ```json
 {
@@ -73,7 +73,7 @@ Include `eas-nfs::nfs-server` in your mgmt node's `run_list`:
 
 ### eas-nfs::nfs-mount
 
-Include `eas-nfs::nfs-mount` in your client node' `run_list`:
+Include `eas-nfs::nfs-mount` in your NFS Client Node `run_list`:
 
 ```json
 {
